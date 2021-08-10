@@ -1,0 +1,30 @@
+html, body {
+    height:100%;
+    background-image: url(images/pretty.fish.jpeg);
+}
+
+nav ul{
+    display:flex;
+    list-style-type: None;
+    justify-content: space-around;
+    align-items:center;
+}
+nav ul li {
+    color:white;
+}
+
+#header-text {
+    font-size:40px;
+}
+
+.text-container {
+    display:flex;
+    justify-content:center;
+    background-color:lavenderblush;
+    flex-direction:column;
+    text-align:center;
+}
+
+hr {
+    width:100%;
+}
