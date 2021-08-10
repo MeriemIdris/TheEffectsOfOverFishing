@@ -48,8 +48,14 @@ nav ul li a:hover {
     flex-direction: column;
     width: 50%;
     height: 50%;
-    background-color: #efefef;
+    background-color: #943838;
     align-self: center;
     justify-content: center;
     justify-self: center;
+    align-items: center;
+}
+.btn{
+    width: 50%;
+    height: 10%;
+    
 }
