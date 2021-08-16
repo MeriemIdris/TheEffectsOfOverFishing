@@ -44,22 +44,32 @@ nav ul li a:hover {
     background-color:gray;
 }
 
+i{
+    text-align: left;
+}
 
 .btn-container {
     display:flex;
     flex-direction: column;
     width: 50%;
     height: 50%;
-    background-color: #e3bfff;
+    background-color:rgb(255, 240, 245, 0.8);
     align-self: center;
     justify-content: center;
     justify-self: center;
     align-items: center;
+    border-radius: 10px;
 }
 .btn{
+    display: flex;
+    justify-content: center;
     width: 50%;
     height: 10%;
-    
+    background-color: aliceblue;
+    text-decoration: none;
+    border: 1px solid grey;
+    align-items: center;
+    margin-top: 5px;
 }
 
 .nav-selected{
